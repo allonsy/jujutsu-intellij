@@ -9,10 +9,10 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.allonsy.jujutsuintellij.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <toolWindow factoryClass="com.github.allonsy.jujutsuintellij.toolWindow.MyToolWindowFactory" id="Jujutsu"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.allonsy.jujutsuintellij.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+<!--        <listener class="com.github.allonsy.jujutsuintellij.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>-->
     </applicationListeners>
 </idea-plugin>
